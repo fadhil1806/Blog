@@ -7,11 +7,11 @@ import { Mousewheel, Pagination } from 'swiper/modules';
 
 export default function Carousel() {
     return (
-        <div className="carousel-container max-w-4xl mx-auto p-4">
+        <div className="carousel-container max-w-4xl mx-auto p-1">
             <Swiper
                 direction={'vertical'}
                 slidesPerView={1}
-                spaceBetween={70}
+                spaceBetween={75}
                 mousewheel={true}
                 pagination={{
                     clickable: true,
