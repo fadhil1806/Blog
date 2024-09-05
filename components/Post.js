@@ -7,7 +7,7 @@ export default function Post() {
                 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {posts.map((post) => (
                         <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
-                            <img src={post.img} className="h-[400px] w-full object-cover max-h-[300px]" alt="Post image" />
+                            <img src={post.img} className="h-[400px] w-full object-cover max-h-[300px] rounded-md" alt="Post image" />
                             <div className="flex items-center gap-x-4 text-xs">
                                 <time dateTime={post.datetime} className="text-gray-500">
                                     {post.date}

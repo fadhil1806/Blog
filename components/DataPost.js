@@ -1,3 +1,4 @@
+
 const posts = [
     {
         id: 1,
@@ -76,6 +77,24 @@ const posts = [
         title: 'Every Artist has to see the Amazing Pictures on the Internet',
         img: 'https://stablo.web3templates.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcijrdavx%2Fproduction%2F279c03681911845947cd044b4ac9e91d7a3a628c-987x1481.png%3Fw%3D987%26auto%3Dformat&w=640&q=75',
         href: '#',
+        description:
+            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+        date: 'Mar 16, 2020',
+        datetime: '2020-03-16',
+        category: { title: 'Design', href: '#' },
+        author: {
+            name: 'Michael Foster',
+            role: 'Co-Founder / CTO',
+            href: '#',
+            imageUrl:
+                'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        },
+    },
+    {
+        id: 6,
+        title: 'The Impact of Technology on the Workplace: How Technology is Changing',
+         href: '#',
+         img: 'https://stablo.web3templates.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fcijrdavx%2Fproduction%2F5be1635417f1814b3fb09f8e9f74f37079899f72-4032x3024.jpg%3Fw%3D2000%26auto%3Dformat&w=256&q=75',
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         date: 'Mar 16, 2020',
