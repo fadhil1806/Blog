@@ -1,15 +1,15 @@
 'use client'; // Pastikan 'use client' ada di awal file untuk mengizinkan penggunaan hooks
 import { useParams } from 'next/navigation'
 
-import { useRouter } from 'next/router'; // Import useRouter dari Next.js
 import Navbar from "@/components/Navbar";
 import Footer from '@/components/Footer';
-
-
+import posts from '@/components/DataPost';
 
 export default function SinglePagePost() {
     const params = useParams()
     console.log(params)
+    const data = posts.filter((id) => id.id = params.id)
+    console.log(data)
     return (
         <div>
             <Navbar />
