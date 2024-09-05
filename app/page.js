@@ -1,5 +1,6 @@
 'use client'
 import Logo from "@/components/Logo";
+import Post from "@/components/Post";
 import { faBars, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
@@ -47,8 +48,9 @@ export default function Home() {
             <FontAwesomeIcon icon={faBars} />
           </button>
         </div>
-
+        
       </nav>
+      <Post/>
 
     </>
   );
