@@ -1,4 +1,5 @@
 'use client'
+import Carousel from "@/components/Carousel";
 import Logo from "@/components/Logo";
 import Post from "@/components/Post";
 import { faBars, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -50,6 +51,9 @@ export default function Home() {
         </div>
         
       </nav>
+      <div>
+        <Carousel/>
+      </div>
       <Post/>
 
     </>
