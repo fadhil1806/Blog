@@ -4,10 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Navbar() {
     return (
         <nav className="flex justify-between items-center p-4 bg-white">
-        <div>
           <Logo />
-        </div>
-
         <div className="hidden lg:flex">
           <ul className="flex gap-7">
             {["Home", "Blog", "Single Post", "Pages", "Contact"].map((menuItem, index) => (

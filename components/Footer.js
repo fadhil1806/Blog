@@ -23,17 +23,17 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <div className="">
+                    <div >
                         <h2 className="text-sans font-bold text-xl">Weekly Newsletter</h2>
                         <p>Get blog articles and offers via email</p>
                         <div className="mt-2 gap-2 grid">
-                            <div class="relative flex items-center">
+                            <div className="relative flex items-center">
                                 <input
                                     type="email"
                                     placeholder="Your Email"
-                                    class="w-full p-2 pl-6 pr-12 text-gray-700 border border-blue-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-700"
+                                    className="w-full p-2 pl-6 pr-12 text-gray-700 border border-blue-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-700"
                                 />
-                                <div class="absolute right-4">
+                                <div className="absolute right-4">
                                     <FontAwesomeIcon icon={faEnvelope} />
                                 </div>
                             </div>
